@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: test
+    database: dbt
+    schema: public
+    tables:
+      - name: titanic
