@@ -9,6 +9,9 @@ I'm running this in a `dbt Cloud` free trial so don't expect any significant upd
 ## Setup
 
 We love [`poetry`](https://python-poetry.org/) so you can get started with `poetry install` and activate your new shell with `poetry shell`.
+
+_Alternatively_, you may do `pip install -r requirements.txt`.
+
 Have fun!
 
 ### Almost fun
