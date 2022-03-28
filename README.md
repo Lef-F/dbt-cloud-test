@@ -11,7 +11,14 @@ I'm running this in a `dbt Cloud` free trial so don't expect any significant upd
 We love [`poetry`](https://python-poetry.org/) so you can get started with `poetry install` and activate your new shell with `poetry shell`.
 Have fun!
 
+### Almost fun
+
+What's currently missing is a `profiles.yml` configuration for this project.
+We do not need to maintain a [`profiles.yml`](https://docs.getdbt.com/reference/profiles.yml/) file in this repo, since this is running on `dbt Cloud` and its taking care of those configs.
+
 ### Using the starter project
+
+**To do this you need to setup your own [`profiles.yml`](https://docs.getdbt.com/reference/profiles.yml/).**
 
 Try running the following commands:
 - `dbt run`
