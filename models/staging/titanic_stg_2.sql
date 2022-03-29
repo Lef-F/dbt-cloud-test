@@ -10,7 +10,7 @@ SELECT
     , p_class
     , SPLIT_PART(
         SPLIT_PART(name, ',', 2), 
-        '.', 1
+        '.', -1
     ) AS pronoun
     , SPLIT_PART(
         SPLIT_PART(name, ',', 2)
@@ -26,5 +26,5 @@ SELECT
     , cabin
     , embarked
 FROM {{
-    ref('titanic_stg')
+    ref('titanic_stg_2')
 }}
