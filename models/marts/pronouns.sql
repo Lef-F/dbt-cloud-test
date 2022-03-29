@@ -5,10 +5,10 @@
 }}
 
 SELECT
-    sex
-    , COUNT(passenger_id) AS passengers
+    pronoun
+    , COUNT(*) AS passengers
 FROM {{
-    ref('titanic_stg_1')
+    ref('titanic_stg_2')
 }}
-GROUP BY sex
+GROUP BY pronoun
 ORDER BY passengers DESC
