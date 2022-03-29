@@ -26,5 +26,5 @@ SELECT
     , cabin
     , embarked
 FROM {{
-    ref('titanic_stg_1')
+    ref('titanic_stg')
 }}
